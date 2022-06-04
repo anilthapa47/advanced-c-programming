@@ -76,7 +76,7 @@ int main()
 				i = 0;
 			}
 			/* Done with this student. */
-			if (prev == '\n' && c == '\n')
+			if ((prev == '\n' && c == '\n') || (c = getchar()) =='a')
 				break;
 		}
 		prev = c;
